@@ -35,14 +35,18 @@
     </section>
     <section>
       <h3>Quiz Option</h3>
-      <form>
+      <form id="quiz-form">
         <p>If I wanted to change the color of the header I would use the CSS property background-color.</p>
         <label for="true">True</label>
         <input name="true" type="radio" value="true">
         <label for="false">False</label>
         <input name="false" type="radio" value="false">
+        <button>Submit Guess</button>
       </form>
+      <p id="result-true" class="hidden">Correct!</p>
+      <p id="result-false" class="hidden">Incorrect!</p>
     </section>
     <footer>&copy; The Mob</footer>
   </body>
+  <script src="index.js" type="module"></script>
 </html>
