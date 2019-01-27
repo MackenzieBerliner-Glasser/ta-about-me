@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>About Mob</title>
-    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="main.css"/>
   </head>
   <body>
     <header>
@@ -13,12 +13,12 @@
     </header>
     <main>
       <h2>My Mob</h2>
-      <ul>
-        <li><img src="./assets//mob1.jpg" alt="mobster 1" /></li>
-        <li><img src="./assets//mob2.jpg" alt="mobster 2" /></li>
-        <li><img src="./assets//mob3.jpg" alt="mobster 3" /></li>
-        <li><img src="./assets//mob4.jpg" alt="mobster 4" /></li>
-        <li><img src="./assets//mob5.jpg" alt="mobster 5" /></li>
+      <ul class="list-wrapper">
+        <li class="list-item"><img src="./assets//mob1.jpg" alt="mobster 1" /><span>Karen Hill</span></li>
+        <li class="list-item"><img src="./assets//mob2.jpg" alt="mobster 2" id="deniro-portrait"/><span>James Conway</span></li>
+        <li class="list-item"><img src="./assets//mob3.jpg" alt="mobster 3" /><span>Henry Hill</span></li>
+        <li class="list-item"><img src="./assets//mob4.jpg" alt="mobster 4" /><span>Tommy DeVito</span></li>
+        <li class="list-item"><img src="./assets//mob5.jpg" alt="mobster 5" /><span>Paul Cicero</span></li>
       </ul>
     </main>
     <section>
@@ -32,6 +32,16 @@
         brooklyn gentrify normcore chambray hot chicken copper mug.
         Farm-to-table PBR&B waistcoat bicycle rights, blue bottle af bushwick.
       </p>
+    </section>
+    <section>
+      <h3>Quiz Option</h3>
+      <form>
+        <p>If I wanted to change the color of the header I would use the CSS property background-color.</p>
+        <label for="true">True</label>
+        <input name="true" type="radio" value="true">
+        <label for="false">False</label>
+        <input name="false" type="radio" value="false">
+      </form>
     </section>
     <footer>&copy; The Mob</footer>
   </body>
